@@ -1,21 +1,21 @@
 terraform {
   required_providers {
     aws = {
-      source  = "hashicorp/aws"
+      source  = "holmanco/aws"
       version = "4.8.0"
     }
     random = {
-      source  = "hashicorp/random"
+      source  = "holmanco/random"
       version = "3.1.2"
     }
   }
   required_version = ">= 1.1.0"
 
   cloud {
-    organization = "sebbycorp"
+    organization = "holmanco"
 
     workspaces {
-      name = "exercise-terraform-github"
+      name = "terraform-github"
     }
   }
 }
