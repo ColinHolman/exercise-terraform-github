@@ -1,11 +1,11 @@
 terraform {
   required_providers {
     aws = {
-      source  = "holmanco/aws"
+      source  = "sebbycorp/aws"
       version = "4.8.0"
     }
     random = {
-      source  = "holmanco/random"
+      source  = "sebbycorp/random"
       version = "3.1.2"
     }
   }
